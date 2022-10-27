@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(.../Poppins);
+}
+
+header ul {
+    list-style:none;
+    display:flex;
+    text-align: center;
+    align-items: center;
+}
+.top {
+    display: flex;
+    position: absolute;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+.top li {
+    margin-right: 30px;
+}
+.logoo{
+    width: 140px;
+    height: 20.83px;
+    align-self:center;
+    margin-right: 850px;
+}
+.background {
+    display: flex;
+}
+.background img{
+    position: inherit;
+}
+.background h1{
+    position: absolute;
+    top: 463px;
+    left: 253px;
+}
+.secondS {
+    display: flex;
+}
+.secondS img{
+    position: inehrit;
+}
+.secondS h2{
+    position: absolute;
+    color:white;
+    width: 20%;
+}
+/*
+.secondS h2 :last-child {
+    justify-self: flex-end;
+}
+*/
+.thirdS ul{
+    display: flex;
+    list-style: none;
+}
+.fourthS ul{
+    display: flex;
+    list-style: none;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+}
+.bottom {
+    display: flex;
+}
+.thirdS li :hover {
+    background-color:blue;
+}
+.fourthS li :hover {
+    background-color:blue;
+}
+.background h1::after {
+    content: ' \2193';
+    background-color: rgb(193, 179, 179);
+    border-radius: 500px;
+}
+.share{
+    display: flex;
+   
+}
+.share img {
+    margin-right: 20px;
+}
+.thirdS, .fourthS p{
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+}
